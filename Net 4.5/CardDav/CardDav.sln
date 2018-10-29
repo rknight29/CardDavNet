@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDav", "CardDav.csproj", "{F1EE3422-CC8C-42E0-8BCA-F18524A81127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDavDemo", "..\CardDavDemo\CardDavDemo.csproj", "{5EF0EBDB-4F09-4935-8428-315A08D897B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDavConsole", "..\CardDavConsole\CardDavConsole.csproj", "{FF5A112E-2C8C-4EE1-89D3-CD8B19E1882F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +19,19 @@ Global
 		{F1EE3422-CC8C-42E0-8BCA-F18524A81127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1EE3422-CC8C-42E0-8BCA-F18524A81127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1EE3422-CC8C-42E0-8BCA-F18524A81127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF0EBDB-4F09-4935-8428-315A08D897B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF0EBDB-4F09-4935-8428-315A08D897B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF0EBDB-4F09-4935-8428-315A08D897B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF0EBDB-4F09-4935-8428-315A08D897B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5A112E-2C8C-4EE1-89D3-CD8B19E1882F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5A112E-2C8C-4EE1-89D3-CD8B19E1882F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5A112E-2C8C-4EE1-89D3-CD8B19E1882F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5A112E-2C8C-4EE1-89D3-CD8B19E1882F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52C2F3E8-7CAF-49C3-9A60-33090D75AF39}
 	EndGlobalSection
 EndGlobal

@@ -245,6 +245,8 @@ namespace CardDav
                     requestStream.Close();
                 }
 
+                request.Timeout = 600000;
+
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
                 queryResponse.Add("status", response.StatusCode.ToString());
